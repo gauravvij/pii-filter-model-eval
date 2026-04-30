@@ -1,0 +1,17 @@
+model,category,tp,fp,fn,precision,recall,f1
+gliner_large_v2.1,PERSON,63,176,31,0.2636,0.6702,0.3784
+gliner_large_v2.1,EMAIL,19,31,7,0.38,0.7308,0.5
+gliner_large_v2.1,PHONE,24,53,1,0.3117,0.96,0.4706
+gliner_large_v2.1,ADDRESS,26,37,66,0.4127,0.2826,0.3355
+gliner_large_v2.1,URL,0,46,0,0.0,0.0,0.0
+gliner_large_v2.1,DATE,17,59,0,0.2237,1.0,0.3656
+gliner_large_v2.1,MACRO_AVG,149,402,105,0.2653,0.6073,0.3417
+gliner_large_v2.1,MICRO_AVG,149,402,105,0.2704,0.5866,0.3702
+openai_privacy_filter,PERSON,1,158,93,0.0063,0.0106,0.0079
+openai_privacy_filter,EMAIL,5,25,21,0.1667,0.1923,0.1786
+openai_privacy_filter,PHONE,9,34,16,0.2093,0.36,0.2647
+openai_privacy_filter,ADDRESS,9,89,83,0.0918,0.0978,0.0947
+openai_privacy_filter,URL,0,21,0,0.0,0.0,0.0
+openai_privacy_filter,DATE,13,56,4,0.1884,0.7647,0.3023
+openai_privacy_filter,MACRO_AVG,37,383,217,0.1104,0.2376,0.1414
+openai_privacy_filter,MICRO_AVG,37,383,217,0.0881,0.1457,0.1098

@@ -1,0 +1,15 @@
+model,category,gold_count,pred_count,strict_p,strict_r,strict_f1,boundary_p,boundary_r,boundary_f1,partial_p,partial_r,partial_f1
+gliner_large_v2.1,person name,148,255,0.4,0.6892,0.5062,0.4863,0.8378,0.6154,0.4431,0.7635,0.5608
+gliner_large_v2.1,email address,37,48,0.5833,0.7568,0.6588,0.6458,0.8378,0.7294,0.6146,0.7973,0.6941
+gliner_large_v2.1,phone number,26,69,0.3478,0.9231,0.5053,0.3478,0.9231,0.5053,0.3478,0.9231,0.5053
+gliner_large_v2.1,street address,97,57,0.3684,0.2165,0.2727,0.5263,0.3093,0.3896,0.4474,0.2629,0.3312
+gliner_large_v2.1,url,0,50,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+gliner_large_v2.1,date,15,86,0.1512,0.8667,0.2574,0.1512,0.8667,0.2574,0.1512,0.8667,0.2574
+gliner_large_v2.1,MACRO_AVG,323,565,0.3085,0.5754,0.3667,0.3596,0.6291,0.4162,0.334,0.6023,0.3915
+openai_privacy_filter,person name,148,205,0.0732,0.1014,0.085,0.5902,0.8176,0.6856,0.3317,0.4595,0.3853
+openai_privacy_filter,email address,37,38,0.2368,0.2432,0.24,0.9737,1.0,0.9867,0.6053,0.6216,0.6133
+openai_privacy_filter,phone number,26,49,0.2041,0.3846,0.2667,0.5102,0.9615,0.6667,0.3571,0.6731,0.4667
+openai_privacy_filter,street address,97,102,0.1176,0.1237,0.1206,0.3627,0.3814,0.3719,0.2402,0.2526,0.2462
+openai_privacy_filter,url,0,38,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+openai_privacy_filter,date,15,87,0.1264,0.7333,0.2157,0.1609,0.9333,0.2745,0.1437,0.8333,0.2451
+openai_privacy_filter,MACRO_AVG,323,519,0.1263,0.2644,0.1547,0.433,0.6823,0.4976,0.2797,0.4733,0.3261
