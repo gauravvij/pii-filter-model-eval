@@ -55,6 +55,10 @@ Most model comparisons use a single metric. When comparing a span-extraction mod
 | GLiNER large-v2.1 | **0.3695** | 0.4508 | **0.4101** |
 | openai/privacy-filter | 0.1813 | **0.5559** | 0.3686 |
 
+![F1 Comparison Chart](results/f1_comparison_v2.png)
+
+*Macro F1 across all three scoring tiers for both models on English (left group) and multilingual (right group) evaluation sets.*
+
 ### GLiNER Threshold Tuning
 
 Best threshold: **0.7** (macro F1 = 0.5022 on dev set, vs 0.4225 at default 0.5)
